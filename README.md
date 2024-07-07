@@ -1,5 +1,8 @@
 # React + Vite
 
+**Price Card is build by using React vite with reusable components.Data are passed by using props.**
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
