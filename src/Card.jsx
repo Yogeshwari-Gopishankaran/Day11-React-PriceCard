@@ -15,8 +15,7 @@ function Card(props) {
               <li class={props.data.isAccess?"":"text-muted"}><span className="fa-li"><i className={props.data.isAccess?"fas fa-check":"fas fa-times"}></i></span>{props.data.access}</li>
               <li class={props.data.isPrivate?"":"text-muted"}><span className="fa-li"><i className={props.data.isPrivate?"fas fa-check":"fas fa-times"}></i></span>{props.data.private}</li>
               <li class={props.data.isSupport?"":"text-muted"} ><span className="fa-li"><i className={props.data.isSupport?"fas fa-check":"fas fa-times"}></i></span>{props.data.phoneSupport}</li>
-              <li class={props.data.isSubDomain?"":"text-muted"}><span className="fa-li"><i className={props.data.isSubDomain?"fas fa-check":"fas fa-times"}></i></span>{props.data.plan==="PRO"?<><b>Unlimited</b>{props.data.subDomain}</>:props.data.subD
-              omain} </li>
+              <li class={props.data.isSubDomain?"":"text-muted"}><span className="fa-li"><i className={props.data.isSubDomain?"fas fa-check":"fas fa-times"}></i></span>{props.data.plan==="PRO"?<><b>Unlimited</b>{props.data.subDomain}</>:props.data.subDomain} </li>
               <li class={props.data.isReports?"":"text-muted"}><span className="fa-li"><i className={props.data.isReports?"fas fa-check":"fas fa-times"}></i></span>{props.data.reports}</li>
               
             </ul>
